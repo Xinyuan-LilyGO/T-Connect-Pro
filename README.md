@@ -14,11 +14,11 @@
 | :-------------------------------: | :-------------------------------: |
 | T-Connect-Pro_V1.0                      | 2025-02-05                    |
 
-## PurchaseLink
+## Important Notes
 
-| Product                     | SOC           |  FLASH  |  PSRAM   | Link                   |
-| :------------------------: | :-----------: |:-------: | :---------: | :------------------: |
-| T-Connect-Pro_V1.0   | ESP32S3R8 |   16M   | 8M (Octal SPI) |  [NULL]()   |
+### PoE Is Not Supported — Do Not Supply Power Through the Ethernet Port
+
+**T-Connect-Pro does not support Power over Ethernet (PoE). The Ethernet port is for data communication only. Do not supply power to the device through the Ethernet cable. In particular, do not use passive PoE injectors or enable forced PoE power on a switch port, as this may damage the Ethernet port or the mainboard.** Use the device's designated power inputs and specified power ratings.
 
 ## Directory
 - [Describe](#describe)
